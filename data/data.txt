@@ -1,0 +1,37 @@
+1 -- > // show database --> to see all database in server 
+
+2 --> // use database --> to use the database 
+
+3 --> create table name (---) -- >  to create an table 
+
+4 --> insert into table ---> to insert values in the table 
+
+5 --> //update table name { ----> to update the table data 
+    set name = '' 
+    where condition ; 
+} 
+ 
+6 --> Alter table T_name  { --->  we use it for delete / drop   an COLUMN  
+    drop COLUMN (col_name) 
+
+}
+
+7 --> Alter table T_name { 
+    add COLUMN_name datatype(#);
+
+}
+
+8 --> select * from table name --> show table str and data 
+
+9 --> AND --> when we want to execute 2 condition in single query 
+
+10 -->LIKE --> { ---> for search using and pattern 
+
+select * from table name 
+where name like '%a' ---> ? --> what that will give --{ that will show data pattern from ending }
+
+} 
+
+select * from table name 
+where name like 'a%' ---> ? --> what that will give --{ that will show data pattern from staring }
+
