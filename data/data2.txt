@@ -1,0 +1,171 @@
+DDL --> 
+
+create -
+databases ? -- > 
+create databases name_of_databases 
+ 
+Alter - 
+Alter table data(table name ) 
+add email varchar(500 ; 
+
+Drop - 
+
+Drop table table_name 
+Drop databases database_name 
+
+Truncate 
+Truncate table name 
+
+
+
+
+DML --> 
+
+Select-> 
+select * from data ; 
+
+-- > that will print table data 
+
+inset -> 
+
+insert into table_name (_) 
+values(---) 
+
+update - > 
+delete - > 
+
+
+
+what is sql -- > 
+jr Abhi --> 
+dora - > 
+Abhi medical -> 
+
+
+DDL -- > 
+create- > 
+create database database_name; 
+
+Alter 
+
+Alter table table_name 
+add  column email varchar()
+
+drop 
+
+drop table table_name 
+
+truncate 
+truncate table table_name 
+
+Drop --> delete entire table from database 
+Truncate --> 
+that will clear all record without deleteting table str 
+
+
+DCL -- > Data control Lang 
+
+command --> 
+1 grant 
+2 revoke 
+
+exp -- > 
+grant -- > pr (rutya ) ? --> abhi (kaka) --> 'grant';
+kajal remove rutya from pr --> 
+revoke 
+
+
+
+GRANT SELECT ON students TO 'om'@'localhost';
+--> permission --> select --> data view  --> on --> of that table --> student --> table 
+to --> that user --> ome@ localhost 
+ 
+exp -- >Abhi -> makes -> rm -> pr 
+exp --> Abhi --> phone --> acc --> grant 
+exp --> Abhi --> change pass --> revoke; 
+
+
+exp --> 
+Abhi --> Abhi --> room --> key(Access) --> 
+exp 2 --> 
+Abhi --> Abhi --> room --> get key back(access removed ) --> revoke   
+
+
+TCL --> (Transaction Control Language) 
+COMMIT, ROLLBACK, SAVEPOINT
+
+why we use tcl --> 
+to 
+
+commit --> 
+that will store data permanently in database ; 
+
+exp -> 
+Rahul made an mistake / commit that is store in earth permanently
+commit()   
+
+Rollback --> 
+
+exp -> rahul killed paras 
+Rollback() 
+
+ 
+savepoint --> 
+START TRANSACTION; ---> we are start transaction 
+
+UPDATE students SET marks = 80 WHERE id = 1; --> marks update to 60  to  80 ; 
+
+SAVEPOINT sp1; --> savepoint added here 
+
+UPDATE students SET marks = 40 WHERE id = 2; ---> marks update 30 --> 70 
+
+
+ROLLBACK TO sp1; --> rolled by the 1st transaction -- > 1st 
+
+COMMIT; --> saved permanently
+ 
+
+
+
+
+.DQL (Data Query Language) – Retrieves data from the database.
+SELECT
+
+Select --> 
+select * from table_name ; 
+
+use of it --> to view data / retrieve data
+
+
+ 
+
+
+types sql commands 
+--> 
+1 > DDL --> 
+1 create 
+2 Alter 
+3 Drop 
+4 Truncate 
+
+2 DML --> 
+1 Insert 
+2 update 
+3 delete 
+4 select 
+
+3 DCL --> 
+1 grate 
+2 revoke
+
+4 TCL --> 
+1 commit 
+2 savep0nt 
+3 rollback
+
+
+
+
+
+DQL --> 
+select ; 
